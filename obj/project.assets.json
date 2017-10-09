@@ -2404,12 +2404,12 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-      "Microsoft.NETCore.App/2.0.0": {
+      "Microsoft.NETCore.App/2.0.0-preview2-25407-01": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "NETStandard.Library": "2.0.0"
+          "Microsoft.NETCore.DotNetHostPolicy": "2.0.0-preview2-25407-01",
+          "Microsoft.NETCore.Platforms": "2.0.0-preview2-25405-01",
+          "NETStandard.Library": "2.0.0-preview2-25401-01"
         },
         "compile": {
           "ref/netcoreapp2.0/Microsoft.CSharp.dll": {},
@@ -2560,19 +2560,19 @@
           "build/netcoreapp2.0/Microsoft.NETCore.App.targets": {}
         }
       },
-      "Microsoft.NETCore.DotNetAppHost/2.0.0": {
+      "Microsoft.NETCore.DotNetAppHost/2.0.0-preview2-25407-01": {
         "type": "package"
       },
-      "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
+      "Microsoft.NETCore.DotNetHostPolicy/2.0.0-preview2-25407-01": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostResolver": "2.0.0"
+          "Microsoft.NETCore.DotNetHostResolver": "2.0.0-preview2-25407-01"
         }
       },
-      "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
+      "Microsoft.NETCore.DotNetHostResolver/2.0.0-preview2-25407-01": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetAppHost": "2.0.0"
+          "Microsoft.NETCore.DotNetAppHost": "2.0.0-preview2-25407-01"
         }
       },
       "Microsoft.NETCore.Platforms/2.0.0": {
@@ -2591,6 +2591,12 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Packaging.Tools/1.0.0-preview2-25401-01": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Packaging.Tools.targets": {}
         }
       },
       "Microsoft.Rest.ClientRuntime/2.3.8": {
@@ -2670,10 +2676,11 @@
           }
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.0-preview2-25401-01": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0"
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.Packaging.Tools": "1.0.0-preview2-25401-01"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -5782,7 +5789,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "O1u0Isa6/pFVlKZwhNsZ6jt45jg9sbAjH/LbtNxl22ytTS9obyTteXVAJqV7tmsq5TE1StLp/9YZlm4ZW0CA/w==",
+      "sha512": "pb/U//bHPaKJ7YibxmLTAOcjRdBwyNp9pS2xlr+g8IOgMmNFageKapb2PDaI3Q/39xtSRdr7fykFdvEDaJlTNw==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -5897,7 +5904,7 @@
       ]
     },
     "Microsoft.Data.Edm/5.8.2": {
-      "sha512": "NhoqQ7DenBh+cjUmL02yW7kKgSDiNVFVUn4KQgc8bdFsOXNclpiG2n36Y8Vr12YsBZS+OJRJ+DY+vXZ0FqAxig==",
+      "sha512": "H1O7nV6s7xwESisYZnAUO+pHQ7K1d/wvPEfCFis4OW94NivtQKWX1X+cfeHfe5iKojBbM1PXKgzgiXfxrgvLyw==",
       "type": "package",
       "path": "microsoft.data.edm/5.8.2",
       "files": [
@@ -5961,7 +5968,7 @@
       ]
     },
     "Microsoft.Data.OData/5.8.2": {
-      "sha512": "N7a5Uw6sQa9M4l36pZb4j4OJIUhsLb/cS7co+0IFZZI7mlDCjmIjox7DwZpCiLiAZpvX/m0GYzJ7RjVWvnumkA==",
+      "sha512": "bC4KpUROh9IkAWg9iRFA878lYWzmICJIsfbajrOZzLcEA66jPE+QOwzAftjP7tLSV2wSui7VR1SeWgX91Pf4rw==",
       "type": "package",
       "path": "microsoft.data.odata/5.8.2",
       "files": [
@@ -6604,7 +6611,7 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "do4MhHbbBTuzIqjPz/QRHFHXlG1WKtB6WgG6U2/j9s6zzqg8H+3iVoX1UQ64gnUlkRHnFaPEgdKLd1cHlm8MuQ==",
+      "sha512": "/PppaUWFxcyvgETPhKAbvYV41j8sXUldhf8YoPOQQ3+qji/k8BCgNn5DKUcKJUE0cnyKOWGy6qPnE0ExVSGvmg==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
@@ -6935,10 +6942,10 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+    "Microsoft.NETCore.App/2.0.0-preview2-25407-01": {
+      "sha512": "I5q8/WyWOv+3PsolMAA379TzqycRrAL2YQHxDdUyqylseBJc60hOmjrFXJxnXlYtqf9/RDfsZPgq0dEJ5b1OUg==",
       "type": "package",
-      "path": "microsoft.netcore.app/2.0.0",
+      "path": "microsoft.netcore.app/2.0.0-preview2-25407-01",
       "files": [
         "LICENSE.TXT",
         "Microsoft.NETCore.App.versions.txt",
@@ -6946,7 +6953,7 @@
         "build/netcoreapp2.0/Microsoft.NETCore.App.PlatformManifest.txt",
         "build/netcoreapp2.0/Microsoft.NETCore.App.props",
         "build/netcoreapp2.0/Microsoft.NETCore.App.targets",
-        "microsoft.netcore.app.2.0.0.nupkg.sha512",
+        "microsoft.netcore.app.2.0.0-preview2-25407-01.nupkg.sha512",
         "microsoft.netcore.app.nuspec",
         "ref/netcoreapp/_._",
         "ref/netcoreapp2.0/Microsoft.CSharp.dll",
@@ -6958,11 +6965,9 @@
         "ref/netcoreapp2.0/System.AppContext.dll",
         "ref/netcoreapp2.0/System.AppContext.xml",
         "ref/netcoreapp2.0/System.Buffers.dll",
-        "ref/netcoreapp2.0/System.Buffers.xml",
         "ref/netcoreapp2.0/System.Collections.Concurrent.dll",
         "ref/netcoreapp2.0/System.Collections.Concurrent.xml",
         "ref/netcoreapp2.0/System.Collections.Immutable.dll",
-        "ref/netcoreapp2.0/System.Collections.Immutable.xml",
         "ref/netcoreapp2.0/System.Collections.NonGeneric.dll",
         "ref/netcoreapp2.0/System.Collections.NonGeneric.xml",
         "ref/netcoreapp2.0/System.Collections.Specialized.dll",
@@ -6993,7 +6998,6 @@
         "ref/netcoreapp2.0/System.Diagnostics.Debug.dll",
         "ref/netcoreapp2.0/System.Diagnostics.Debug.xml",
         "ref/netcoreapp2.0/System.Diagnostics.DiagnosticSource.dll",
-        "ref/netcoreapp2.0/System.Diagnostics.DiagnosticSource.xml",
         "ref/netcoreapp2.0/System.Diagnostics.FileVersionInfo.dll",
         "ref/netcoreapp2.0/System.Diagnostics.FileVersionInfo.xml",
         "ref/netcoreapp2.0/System.Diagnostics.Process.dll",
@@ -7009,7 +7013,6 @@
         "ref/netcoreapp2.0/System.Diagnostics.Tracing.dll",
         "ref/netcoreapp2.0/System.Diagnostics.Tracing.xml",
         "ref/netcoreapp2.0/System.Drawing.Primitives.dll",
-        "ref/netcoreapp2.0/System.Drawing.Primitives.xml",
         "ref/netcoreapp2.0/System.Drawing.dll",
         "ref/netcoreapp2.0/System.Dynamic.Runtime.dll",
         "ref/netcoreapp2.0/System.Dynamic.Runtime.xml",
@@ -7053,15 +7056,12 @@
         "ref/netcoreapp2.0/System.Net.Http.dll",
         "ref/netcoreapp2.0/System.Net.Http.xml",
         "ref/netcoreapp2.0/System.Net.HttpListener.dll",
-        "ref/netcoreapp2.0/System.Net.HttpListener.xml",
         "ref/netcoreapp2.0/System.Net.Mail.dll",
-        "ref/netcoreapp2.0/System.Net.Mail.xml",
         "ref/netcoreapp2.0/System.Net.NameResolution.dll",
         "ref/netcoreapp2.0/System.Net.NameResolution.xml",
         "ref/netcoreapp2.0/System.Net.NetworkInformation.dll",
         "ref/netcoreapp2.0/System.Net.NetworkInformation.xml",
         "ref/netcoreapp2.0/System.Net.Ping.dll",
-        "ref/netcoreapp2.0/System.Net.Ping.xml",
         "ref/netcoreapp2.0/System.Net.Primitives.dll",
         "ref/netcoreapp2.0/System.Net.Primitives.xml",
         "ref/netcoreapp2.0/System.Net.Requests.dll",
@@ -7069,22 +7069,18 @@
         "ref/netcoreapp2.0/System.Net.Security.dll",
         "ref/netcoreapp2.0/System.Net.Security.xml",
         "ref/netcoreapp2.0/System.Net.ServicePoint.dll",
-        "ref/netcoreapp2.0/System.Net.ServicePoint.xml",
         "ref/netcoreapp2.0/System.Net.Sockets.dll",
         "ref/netcoreapp2.0/System.Net.Sockets.xml",
         "ref/netcoreapp2.0/System.Net.WebClient.dll",
-        "ref/netcoreapp2.0/System.Net.WebClient.xml",
         "ref/netcoreapp2.0/System.Net.WebHeaderCollection.dll",
         "ref/netcoreapp2.0/System.Net.WebHeaderCollection.xml",
         "ref/netcoreapp2.0/System.Net.WebProxy.dll",
-        "ref/netcoreapp2.0/System.Net.WebProxy.xml",
         "ref/netcoreapp2.0/System.Net.WebSockets.Client.dll",
         "ref/netcoreapp2.0/System.Net.WebSockets.Client.xml",
         "ref/netcoreapp2.0/System.Net.WebSockets.dll",
         "ref/netcoreapp2.0/System.Net.WebSockets.xml",
         "ref/netcoreapp2.0/System.Net.dll",
         "ref/netcoreapp2.0/System.Numerics.Vectors.dll",
-        "ref/netcoreapp2.0/System.Numerics.Vectors.xml",
         "ref/netcoreapp2.0/System.Numerics.dll",
         "ref/netcoreapp2.0/System.ObjectModel.dll",
         "ref/netcoreapp2.0/System.ObjectModel.xml",
@@ -7099,7 +7095,6 @@
         "ref/netcoreapp2.0/System.Reflection.Extensions.dll",
         "ref/netcoreapp2.0/System.Reflection.Extensions.xml",
         "ref/netcoreapp2.0/System.Reflection.Metadata.dll",
-        "ref/netcoreapp2.0/System.Reflection.Metadata.xml",
         "ref/netcoreapp2.0/System.Reflection.Primitives.dll",
         "ref/netcoreapp2.0/System.Reflection.Primitives.xml",
         "ref/netcoreapp2.0/System.Reflection.TypeExtensions.dll",
@@ -7107,11 +7102,9 @@
         "ref/netcoreapp2.0/System.Reflection.dll",
         "ref/netcoreapp2.0/System.Reflection.xml",
         "ref/netcoreapp2.0/System.Resources.Reader.dll",
-        "ref/netcoreapp2.0/System.Resources.Reader.xml",
         "ref/netcoreapp2.0/System.Resources.ResourceManager.dll",
         "ref/netcoreapp2.0/System.Resources.ResourceManager.xml",
         "ref/netcoreapp2.0/System.Resources.Writer.dll",
-        "ref/netcoreapp2.0/System.Resources.Writer.xml",
         "ref/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.dll",
         "ref/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.xml",
         "ref/netcoreapp2.0/System.Runtime.Extensions.dll",
@@ -7119,7 +7112,6 @@
         "ref/netcoreapp2.0/System.Runtime.Handles.dll",
         "ref/netcoreapp2.0/System.Runtime.Handles.xml",
         "ref/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "ref/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.xml",
         "ref/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "ref/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.xml",
         "ref/netcoreapp2.0/System.Runtime.InteropServices.dll",
@@ -7129,7 +7121,6 @@
         "ref/netcoreapp2.0/System.Runtime.Numerics.dll",
         "ref/netcoreapp2.0/System.Runtime.Numerics.xml",
         "ref/netcoreapp2.0/System.Runtime.Serialization.Formatters.dll",
-        "ref/netcoreapp2.0/System.Runtime.Serialization.Formatters.xml",
         "ref/netcoreapp2.0/System.Runtime.Serialization.Json.dll",
         "ref/netcoreapp2.0/System.Runtime.Serialization.Json.xml",
         "ref/netcoreapp2.0/System.Runtime.Serialization.Primitives.dll",
@@ -7142,13 +7133,10 @@
         "ref/netcoreapp2.0/System.Security.Claims.dll",
         "ref/netcoreapp2.0/System.Security.Claims.xml",
         "ref/netcoreapp2.0/System.Security.Cryptography.Algorithms.dll",
-        "ref/netcoreapp2.0/System.Security.Cryptography.Algorithms.xml",
         "ref/netcoreapp2.0/System.Security.Cryptography.Csp.dll",
-        "ref/netcoreapp2.0/System.Security.Cryptography.Csp.xml",
         "ref/netcoreapp2.0/System.Security.Cryptography.Encoding.dll",
         "ref/netcoreapp2.0/System.Security.Cryptography.Encoding.xml",
         "ref/netcoreapp2.0/System.Security.Cryptography.Primitives.dll",
-        "ref/netcoreapp2.0/System.Security.Cryptography.Primitives.xml",
         "ref/netcoreapp2.0/System.Security.Cryptography.X509Certificates.dll",
         "ref/netcoreapp2.0/System.Security.Cryptography.X509Certificates.xml",
         "ref/netcoreapp2.0/System.Security.Principal.dll",
@@ -7167,9 +7155,7 @@
         "ref/netcoreapp2.0/System.Threading.Overlapped.dll",
         "ref/netcoreapp2.0/System.Threading.Overlapped.xml",
         "ref/netcoreapp2.0/System.Threading.Tasks.Dataflow.dll",
-        "ref/netcoreapp2.0/System.Threading.Tasks.Dataflow.xml",
         "ref/netcoreapp2.0/System.Threading.Tasks.Extensions.dll",
-        "ref/netcoreapp2.0/System.Threading.Tasks.Extensions.xml",
         "ref/netcoreapp2.0/System.Threading.Tasks.Parallel.dll",
         "ref/netcoreapp2.0/System.Threading.Tasks.Parallel.xml",
         "ref/netcoreapp2.0/System.Threading.Tasks.dll",
@@ -7183,12 +7169,9 @@
         "ref/netcoreapp2.0/System.Threading.dll",
         "ref/netcoreapp2.0/System.Threading.xml",
         "ref/netcoreapp2.0/System.Transactions.Local.dll",
-        "ref/netcoreapp2.0/System.Transactions.Local.xml",
         "ref/netcoreapp2.0/System.Transactions.dll",
         "ref/netcoreapp2.0/System.ValueTuple.dll",
-        "ref/netcoreapp2.0/System.ValueTuple.xml",
         "ref/netcoreapp2.0/System.Web.HttpUtility.dll",
-        "ref/netcoreapp2.0/System.Web.HttpUtility.xml",
         "ref/netcoreapp2.0/System.Web.dll",
         "ref/netcoreapp2.0/System.Windows.dll",
         "ref/netcoreapp2.0/System.Xml.Linq.dll",
@@ -7208,43 +7191,898 @@
         "ref/netcoreapp2.0/System.Xml.dll",
         "ref/netcoreapp2.0/System.dll",
         "ref/netcoreapp2.0/WindowsBase.dll",
+        "ref/netcoreapp2.0/de/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/de/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/de/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/de/System.AppContext.xml",
+        "ref/netcoreapp2.0/de/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/de/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/de/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/de/System.Collections.xml",
+        "ref/netcoreapp2.0/de/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/de/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/de/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/de/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/de/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/de/System.Console.xml",
+        "ref/netcoreapp2.0/de/System.Data.Common.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/de/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/de/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/de/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/de/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/de/System.Globalization.xml",
+        "ref/netcoreapp2.0/de/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/de/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/de/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/de/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/de/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/de/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/de/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/de/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/de/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/de/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/de/System.IO.xml",
+        "ref/netcoreapp2.0/de/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/de/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/de/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/de/System.Linq.xml",
+        "ref/netcoreapp2.0/de/System.Net.Http.xml",
+        "ref/netcoreapp2.0/de/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/de/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/de/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/de/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/de/System.Net.Security.xml",
+        "ref/netcoreapp2.0/de/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/de/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/de/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/de/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/de/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/de/System.Reflection.xml",
+        "ref/netcoreapp2.0/de/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/de/System.Runtime.xml",
+        "ref/netcoreapp2.0/de/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/de/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/de/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/de/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/de/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/de/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/de/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/de/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/de/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/de/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/de/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/de/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/de/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/de/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/de/System.Threading.xml",
+        "ref/netcoreapp2.0/de/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/de/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/de/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/de/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/de/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/de/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/es/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/es/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/es/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/es/System.AppContext.xml",
+        "ref/netcoreapp2.0/es/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/es/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/es/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/es/System.Collections.xml",
+        "ref/netcoreapp2.0/es/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/es/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/es/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/es/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/es/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/es/System.Console.xml",
+        "ref/netcoreapp2.0/es/System.Data.Common.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/es/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/es/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/es/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/es/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/es/System.Globalization.xml",
+        "ref/netcoreapp2.0/es/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/es/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/es/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/es/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/es/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/es/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/es/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/es/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/es/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/es/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/es/System.IO.xml",
+        "ref/netcoreapp2.0/es/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/es/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/es/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/es/System.Linq.xml",
+        "ref/netcoreapp2.0/es/System.Net.Http.xml",
+        "ref/netcoreapp2.0/es/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/es/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/es/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/es/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/es/System.Net.Security.xml",
+        "ref/netcoreapp2.0/es/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/es/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/es/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/es/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/es/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/es/System.Reflection.xml",
+        "ref/netcoreapp2.0/es/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/es/System.Runtime.xml",
+        "ref/netcoreapp2.0/es/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/es/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/es/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/es/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/es/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/es/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/es/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/es/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/es/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/es/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/es/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/es/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/es/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/es/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/es/System.Threading.xml",
+        "ref/netcoreapp2.0/es/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/es/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/es/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/es/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/es/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/es/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/fr/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/fr/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/fr/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/fr/System.AppContext.xml",
+        "ref/netcoreapp2.0/fr/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/fr/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/fr/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/fr/System.Collections.xml",
+        "ref/netcoreapp2.0/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/fr/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/fr/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/fr/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/fr/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/fr/System.Console.xml",
+        "ref/netcoreapp2.0/fr/System.Data.Common.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/fr/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/fr/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/fr/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/fr/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/fr/System.Globalization.xml",
+        "ref/netcoreapp2.0/fr/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/fr/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/fr/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/fr/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/fr/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/fr/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/fr/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/fr/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/fr/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/fr/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/fr/System.IO.xml",
+        "ref/netcoreapp2.0/fr/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/fr/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/fr/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/fr/System.Linq.xml",
+        "ref/netcoreapp2.0/fr/System.Net.Http.xml",
+        "ref/netcoreapp2.0/fr/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/fr/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/fr/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/fr/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/fr/System.Net.Security.xml",
+        "ref/netcoreapp2.0/fr/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/fr/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/fr/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/fr/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/fr/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/fr/System.Reflection.xml",
+        "ref/netcoreapp2.0/fr/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/fr/System.Runtime.xml",
+        "ref/netcoreapp2.0/fr/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/fr/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/fr/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/fr/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/fr/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/fr/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/fr/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/fr/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/fr/System.Threading.xml",
+        "ref/netcoreapp2.0/fr/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/fr/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/fr/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/fr/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/fr/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/fr/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/it/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/it/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/it/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/it/System.AppContext.xml",
+        "ref/netcoreapp2.0/it/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/it/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/it/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/it/System.Collections.xml",
+        "ref/netcoreapp2.0/it/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/it/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/it/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/it/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/it/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/it/System.Console.xml",
+        "ref/netcoreapp2.0/it/System.Data.Common.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/it/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/it/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/it/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/it/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/it/System.Globalization.xml",
+        "ref/netcoreapp2.0/it/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/it/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/it/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/it/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/it/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/it/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/it/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/it/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/it/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/it/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/it/System.IO.xml",
+        "ref/netcoreapp2.0/it/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/it/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/it/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/it/System.Linq.xml",
+        "ref/netcoreapp2.0/it/System.Net.Http.xml",
+        "ref/netcoreapp2.0/it/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/it/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/it/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/it/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/it/System.Net.Security.xml",
+        "ref/netcoreapp2.0/it/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/it/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/it/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/it/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/it/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/it/System.Reflection.xml",
+        "ref/netcoreapp2.0/it/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/it/System.Runtime.xml",
+        "ref/netcoreapp2.0/it/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/it/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/it/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/it/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/it/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/it/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/it/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/it/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/it/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/it/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/it/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/it/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/it/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/it/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/it/System.Threading.xml",
+        "ref/netcoreapp2.0/it/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/it/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/it/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/it/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/it/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/it/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/ja/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/ja/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/ja/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/ja/System.AppContext.xml",
+        "ref/netcoreapp2.0/ja/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/ja/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/ja/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/ja/System.Collections.xml",
+        "ref/netcoreapp2.0/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/ja/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/ja/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/ja/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/ja/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/ja/System.Console.xml",
+        "ref/netcoreapp2.0/ja/System.Data.Common.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/ja/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/ja/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/ja/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/ja/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/ja/System.Globalization.xml",
+        "ref/netcoreapp2.0/ja/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/ja/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/ja/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/ja/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/ja/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/ja/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/ja/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/ja/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/ja/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/ja/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/ja/System.IO.xml",
+        "ref/netcoreapp2.0/ja/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/ja/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/ja/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/ja/System.Linq.xml",
+        "ref/netcoreapp2.0/ja/System.Net.Http.xml",
+        "ref/netcoreapp2.0/ja/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/ja/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/ja/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/ja/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/ja/System.Net.Security.xml",
+        "ref/netcoreapp2.0/ja/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/ja/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/ja/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/ja/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/ja/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/ja/System.Reflection.xml",
+        "ref/netcoreapp2.0/ja/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/ja/System.Runtime.xml",
+        "ref/netcoreapp2.0/ja/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/ja/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/ja/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/ja/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/ja/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/ja/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/ja/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/ja/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/ja/System.Threading.xml",
+        "ref/netcoreapp2.0/ja/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/ja/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/ja/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/ja/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/ja/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/ja/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/ko/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/ko/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/ko/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/ko/System.AppContext.xml",
+        "ref/netcoreapp2.0/ko/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/ko/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/ko/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/ko/System.Collections.xml",
+        "ref/netcoreapp2.0/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/ko/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/ko/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/ko/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/ko/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/ko/System.Console.xml",
+        "ref/netcoreapp2.0/ko/System.Data.Common.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/ko/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/ko/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/ko/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/ko/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/ko/System.Globalization.xml",
+        "ref/netcoreapp2.0/ko/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/ko/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/ko/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/ko/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/ko/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/ko/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/ko/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/ko/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/ko/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/ko/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/ko/System.IO.xml",
+        "ref/netcoreapp2.0/ko/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/ko/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/ko/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/ko/System.Linq.xml",
+        "ref/netcoreapp2.0/ko/System.Net.Http.xml",
+        "ref/netcoreapp2.0/ko/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/ko/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/ko/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/ko/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/ko/System.Net.Security.xml",
+        "ref/netcoreapp2.0/ko/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/ko/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/ko/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/ko/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/ko/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/ko/System.Reflection.xml",
+        "ref/netcoreapp2.0/ko/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/ko/System.Runtime.xml",
+        "ref/netcoreapp2.0/ko/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/ko/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/ko/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/ko/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/ko/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/ko/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/ko/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/ko/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/ko/System.Threading.xml",
+        "ref/netcoreapp2.0/ko/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/ko/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/ko/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/ko/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/ko/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/ko/System.Xml.XmlSerializer.xml",
         "ref/netcoreapp2.0/mscorlib.dll",
         "ref/netcoreapp2.0/netstandard.dll",
+        "ref/netcoreapp2.0/ru/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/ru/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/ru/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/ru/System.AppContext.xml",
+        "ref/netcoreapp2.0/ru/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/ru/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/ru/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/ru/System.Collections.xml",
+        "ref/netcoreapp2.0/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/ru/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/ru/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/ru/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/ru/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/ru/System.Console.xml",
+        "ref/netcoreapp2.0/ru/System.Data.Common.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/ru/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/ru/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/ru/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/ru/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/ru/System.Globalization.xml",
+        "ref/netcoreapp2.0/ru/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/ru/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/ru/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/ru/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/ru/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/ru/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/ru/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/ru/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/ru/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/ru/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/ru/System.IO.xml",
+        "ref/netcoreapp2.0/ru/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/ru/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/ru/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/ru/System.Linq.xml",
+        "ref/netcoreapp2.0/ru/System.Net.Http.xml",
+        "ref/netcoreapp2.0/ru/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/ru/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/ru/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/ru/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/ru/System.Net.Security.xml",
+        "ref/netcoreapp2.0/ru/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/ru/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/ru/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/ru/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/ru/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/ru/System.Reflection.xml",
+        "ref/netcoreapp2.0/ru/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/ru/System.Runtime.xml",
+        "ref/netcoreapp2.0/ru/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/ru/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/ru/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/ru/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/ru/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/ru/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/ru/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/ru/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/ru/System.Threading.xml",
+        "ref/netcoreapp2.0/ru/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/ru/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/ru/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/ru/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/ru/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/ru/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/zh-hans/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/zh-hans/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hans/System.AppContext.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Collections.xml",
+        "ref/netcoreapp2.0/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/zh-hans/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/zh-hans/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hans/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/zh-hans/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Console.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Data.Common.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Globalization.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/zh-hans/System.IO.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Linq.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.Http.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.Security.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/zh-hans/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Reflection.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Runtime.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Threading.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netcoreapp2.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/zh-hant/Microsoft.VisualBasic.xml",
+        "ref/netcoreapp2.0/zh-hant/Microsoft.Win32.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hant/System.AppContext.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Collections.Concurrent.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Collections.NonGeneric.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Collections.Specialized.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Collections.xml",
+        "ref/netcoreapp2.0/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/zh-hant/System.ComponentModel.EventBasedAsync.xml",
+        "ref/netcoreapp2.0/zh-hant/System.ComponentModel.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hant/System.ComponentModel.TypeConverter.xml",
+        "ref/netcoreapp2.0/zh-hant/System.ComponentModel.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Console.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Data.Common.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.Contracts.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.Debug.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.FileVersionInfo.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.Process.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.StackTrace.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.TextWriterTraceListener.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.Tools.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.TraceSource.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Diagnostics.Tracing.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Globalization.Calendars.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Globalization.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Globalization.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.Compression.ZipFile.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.Compression.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.FileSystem.DriveInfo.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.FileSystem.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.FileSystem.Watcher.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.FileSystem.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.IsolatedStorage.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.MemoryMappedFiles.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.Pipes.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.UnmanagedMemoryStream.xml",
+        "ref/netcoreapp2.0/zh-hant/System.IO.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Linq.Expressions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Linq.Parallel.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Linq.Queryable.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Linq.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.Http.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.NameResolution.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.Requests.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.Security.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.Sockets.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.WebHeaderCollection.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.WebSockets.Client.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Net.WebSockets.xml",
+        "ref/netcoreapp2.0/zh-hant/System.ObjectModel.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.DispatchProxy.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.Emit.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Reflection.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.CompilerServices.VisualC.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Handles.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.InteropServices.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Loader.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Numerics.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Serialization.Json.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.Serialization.Xml.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Runtime.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Security.Claims.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Security.Cryptography.Encoding.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Security.Cryptography.X509Certificates.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Security.Principal.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Security.SecureString.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Text.Encoding.Extensions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Text.Encoding.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Text.RegularExpressions.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.Overlapped.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.Tasks.Parallel.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.Tasks.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.Thread.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.ThreadPool.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.Timer.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Threading.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Xml.ReaderWriter.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Xml.XDocument.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Xml.XPath.XDocument.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Xml.XPath.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Xml.XmlDocument.xml",
+        "ref/netcoreapp2.0/zh-hant/System.Xml.XmlSerializer.xml",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetAppHost/2.0.0": {
-      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
+    "Microsoft.NETCore.DotNetAppHost/2.0.0-preview2-25407-01": {
+      "sha512": "mEBIOBAgF2pVzwZTuV3ckzvCFQX3SgVg8pkKZtW4jHNXOXQqmC5vC++4ubf7BJOIckcIp34SEPM+cR2DoRhDNA==",
       "type": "package",
-      "path": "microsoft.netcore.dotnetapphost/2.0.0",
+      "path": "microsoft.netcore.dotnetapphost/2.0.0-preview2-25407-01",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnetapphost.2.0.0-preview2-25407-01.nupkg.sha512",
         "microsoft.netcore.dotnetapphost.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
-      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
+    "Microsoft.NETCore.DotNetHostPolicy/2.0.0-preview2-25407-01": {
+      "sha512": "SpXLTyj3uUODzBCdHGLKCmH7HZxkKCkMPvQ1QWrGwRSXaKX+FIT1QIVo2wkkH+vTT95PWYpYO3Zxb3HSJZ0g8g==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
+      "path": "microsoft.netcore.dotnethostpolicy/2.0.0-preview2-25407-01",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnethostpolicy.2.0.0-preview2-25407-01.nupkg.sha512",
         "microsoft.netcore.dotnethostpolicy.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
-      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
+    "Microsoft.NETCore.DotNetHostResolver/2.0.0-preview2-25407-01": {
+      "sha512": "QkqakAEQFZQa3Glq6KsEdfTqmLORwF4nwc1P/92+WZILuuqa/iINLqqgt0/9/j7TV232iXf33XX4zJwOj1Z3hQ==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostresolver/2.0.0",
+      "path": "microsoft.netcore.dotnethostresolver/2.0.0-preview2-25407-01",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnethostresolver.2.0.0-preview2-25407-01.nupkg.sha512",
         "microsoft.netcore.dotnethostresolver.nuspec",
         "runtime.json"
       ]
@@ -7265,7 +8103,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "Azh6IIjMJZvuf+/vJ3gFwpWlqPeBvoJSbM6lqmz8Ubd2steZ7z+ImIkw5xfL8TawMK3lytS0ETPdIq/74TDUbQ==",
+      "sha512": "cMtceRQS+ik9kba5HMurjB1qM8OcsQ21hkFV7mGk0aH6tkMcvqQYUwscM5bwcDNA7lJViTqx/eRj8V1uVRjKtA==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
@@ -7275,6 +8113,24 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.Packaging.Tools/1.0.0-preview2-25401-01": {
+      "sha512": "h4Zrq2/gZrMz/8fG/HNUGxyIkA5D2pyjRSfzLj55PMHsrADsMNDidPbK8cNhnc5RTRmLOQyaub0+iPPZiWeGLw==",
+      "type": "package",
+      "path": "microsoft.packaging.tools/1.0.0-preview2-25401-01",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/Microsoft.Packaging.Tools.Tasks.dll",
+        "build/Microsoft.Packaging.Tools.targets",
+        "build/System.Collections.Immutable.dll",
+        "build/System.Reflection.Metadata.dll",
+        "build/desktop/Microsoft.Packaging.Tools.Tasks.dll",
+        "build/desktop/System.Collections.Immutable.dll",
+        "build/desktop/System.Reflection.Metadata.dll",
+        "microsoft.packaging.tools.1.0.0-preview2-25401-01.nupkg.sha512",
+        "microsoft.packaging.tools.nuspec"
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.8": {
@@ -7319,7 +8175,7 @@
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
-      "sha512": "TVt3GDNYVHSOb5mOzoSo6zyj/mROwFqlqZotSnHU2JbRv7V4wHyfSvcoHQoLNN2qykg+2S42vYTmMukdEnVYYA==",
+      "sha512": "ffoyPf2hZm5jH0th1mNJxLjcvrTNPagfEj055ZlgR8EAa96pIYvBcdfetCmzVN/eBxOC2qtz8AYg0iaENxaAug==",
       "type": "package",
       "path": "microsoft.win32.primitives/4.3.0",
       "files": [
@@ -7392,10 +8248,10 @@
         "version.txt"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.0-preview2-25401-01": {
+      "sha512": "goCvZ+OsDZcnme0HlY7W3OuSvgW+gMaS03BzN5WrDUL22cdnVHXa8X3zNqRNChSOhWoLpG7Ss6odmEeBq+XYdg==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.0-preview2-25401-01",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -7514,14 +8370,13 @@
         "build/netstandard2.0/ref/System.dll",
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
-        "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.0-preview2-25401-01.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
     "Newtonsoft.Json/10.0.1": {
-      "sha512": "5GjMyciTzmpUrBD2gfKJb/dDQqkdsC6DdIPAXtNh+MTLsAh6IaYg0KtId+Chu5h/91FQ2/fuuzWEkpGZ/Kme8A==",
+      "sha512": "Y/2+23oijr+4tm1tyCsJCIrrkIBTthr/o8E9nxZe3w5BGj5MWYPKpzRQuxK7r0jkWRkZUazEAKAxqxAY83fNeQ==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
       "files": [
@@ -7545,7 +8400,7 @@
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
-      "sha512": "HKbrTsIT+4+R91lhs48cHvnHmtxCaCToPEAbka+5stsqXWr4n169pA9fe1DXjhNo+15LBL3h9Jj0Dk0uSfEc2A==",
+      "sha512": "OEJ1IRYzQ8T1BccLOpK9BOKuNdI7TRXcm/t/cie3YxGj/0rBDtYW5ugVV05x1v06PwqnIyP07GkK/1L5K1Tm/g==",
       "type": "package",
       "path": "newtonsoft.json.bson/1.0.1",
       "files": [
@@ -7558,7 +8413,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "S5TIT3BrB1Red2ndRKHKOW5ujJyUGQtI3PZlMhsdWZiDSdb1G86vErzTS8FIJ0eaM8o000VpqKuw9s9nrUzHjA==",
+      "sha512": "HIb3IDbYHzIJWu04zDzuPTuhNzr2oJIdUpKb8LXa1DAluF5SOsPKHKrT508o0y4FkMgprFNwOOF1rKM27kLjGQ==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -7577,7 +8432,7 @@
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "2vTBI9+rmfwMS1k7/G5XHof85dxiIEfvoZCAfwhECiaMnww3Bfws63L561HVwIJILU2vrebsvyFM/INc5AQmfQ==",
+      "sha512": "5b9YWIrtt3p+AjzLX2k74WNxBKCkpTcEzHfwYIWnNn6jerWjqvBQJJxenmZshvT9uXv/rqy3myd5ZevWe8jd8g==",
       "type": "package",
       "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7589,7 +8444,7 @@
       ]
     },
     "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "XMNgNVphQSd7ULnxLQ1UcG639QrYKDbKdsIPwDLQl5cvkX7Qo0NoDSbAce2XUYxpu8aZJvM8d65JvzrVw8yOMA==",
+      "sha512": "kdogdWoKqs5rv2PhWFsp7EXgIfUBmouWdY0Wg05lpkNuCsIvxAZHP9iTC6+tYHa7XboY1IATcqVZplbskAncZw==",
       "type": "package",
       "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7601,7 +8456,7 @@
       ]
     },
     "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "bOJnl02MkmVm51FXfp/3J/n/YTb/HIdBijg7tfPPVXH3+3IW2WrQg1d46dDDtI/nFeBx2oSx45LY2UT2LdJb7g==",
+      "sha512": "ec8fRrrVfe4oXoOmUiuEGhVMhRHc325ClovBeHErkjxC/jN8wEEg4/h0p3LVaYO0X9S5ueiyu+ENT95+wuElBQ==",
       "type": "package",
       "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7613,7 +8468,7 @@
       ]
     },
     "runtime.native.System/4.3.0": {
-      "sha512": "yU7fhrT/b3pfZaQytSpKu/mdNsGnZ9gPsR4uITPBXK82zqVlXVSKql866s8tFnM76TwDJ/TLHoBRFpG2c/WBkg==",
+      "sha512": "WTLowkN73B3VNW/sAvmYRFeLGf1HEYgVsYKvBMA/J9RM4MA9Qsh6HJCF1s8g1zNH9BK5ePYKrAucnOFfpxVasQ==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
@@ -7638,7 +8493,7 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "/ZLUEf/OHjJrZtTBmDmas6vVH5PcD6+fqtns6FFonwFABcR3thDoae7U3NmOEZhMn7f9s0twpo+aZwPbye197g==",
+      "sha512": "6bBC+6k8HlTAJmjHBDwzGdFZXNXTanY+VLuyqDaIO1W9xnjIa+k2sBoScq1XNkeMU7jdJUmSI5js4lkcSTRkgA==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
@@ -7650,7 +8505,7 @@
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "QGUVUuSgVw1XX/Z7DODiJ9w8n8w5+Dcq41kXPQpwoRIF7h5qHBRZe+f8hVDtNHYenAAnAp5q5Z3CLygC2ahulA==",
+      "sha512": "WNuXJQT0+E/5u0YAzPhPUNoUWK7HjoID7VnXABbLkiWRjuzZjaN9caFkD4sFlcOy7Z8L0eUkHWk8tFJaWBWm+A==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
@@ -7662,7 +8517,7 @@
       ]
     },
     "runtime.native.System.Net.Security/4.3.0": {
-      "sha512": "hKj/jqzx3JNdXFSKROLSzJHq2qrftsqtWZGn9D/0vmkiOaTtPHgNl+Q7IvSRUHjvDm4efusYSouqNjfMbBAUwA==",
+      "sha512": "i5+geOC7qPwa0pKE2KZC0xtE/NvL5wtQhHYaOeyIWraV6KrzjoB/7bD1vTnzB6en27zOInZP+UyGqYyTl7oXHg==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
@@ -7674,7 +8529,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "mihheIAQjoA8kl4CE7R0+ybsbTdyu0tAOTxUbZOs9tJbXUUtGjCl2tNtLirMeEgIMo9kqm8snD7YYbz2cHXOqw==",
+      "sha512": "pDGzQf+DIlhcHoF+8C0I6sEFpMYzYpmAQ4H7D6JNfoFGOEc0Ctfiii5DPkzCN4zHh8EdwT0jX067Ms5bw870RA==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -7686,7 +8541,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "hYXQu9wIyitEBwKc9t7Ep6xfnoe2YFXbeVEzd16ILAG1hsKTpI4w2RvpNn+GFsTJvLwwBRyT2P6QMgvyEV17Hw==",
+      "sha512": "1eT1ku1X3HbZf4LUXqSECLMFTAQ7jJ8hZOwVoC+6NXyVdeMGPc1b4dbzMpnsOApZuiS7kBKHgGS6s3R3GpU2wg==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7698,7 +8553,7 @@
       ]
     },
     "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "0BTEEnI6J7sDTOB1/usLoSySIY+1tlFtpyaq/BMHC9hCrgCDi9QqgQLaFwPQL26/Y4tWbYipsH8E27xSFQDSPA==",
+      "sha512": "hVv0gmFzOGy0ck3A9TCUOd0ADYDUvndxFaFuIg4P5l3I0CjJZ/C0Ms6Ed4KN4IvazkYnlJTYAr9cpBw4cjausw==",
       "type": "package",
       "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7710,7 +8565,7 @@
       ]
     },
     "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "xT8yQyE4Kr5YP9J+AiFu/nWMoMTPPGj0jxI9lmp0ixpCwPLjr2FKEqdoyG1wkz7unLeY9vJsWc0yqf2FIcil2w==",
+      "sha512": "s/HvXJiXdR01L5F6Cb0mJTS8yTuU5aW8jcuo41NZqcJYlwLlo3T6qYcY3avB1pFdv/FeLK0bLZgN0pxudJ0Z/g==",
       "type": "package",
       "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7722,7 +8577,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "rRfpEAb4JLk4hKgDTC+NlRNxWg1MsshFx4Nv/AsnZZOh16rDvhq8xA22cGdZrYnbS3Mlq2qGaH9hmDdmyD7Itw==",
+      "sha512": "f3F7IKQv9uvtvHtU4E4IouVheaZcvqUIRxoPWCjZUpeYIv8oXhPVI3rjpvFkLuAx3A+fQ9FrV+8ymOnNXJLzHQ==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -7734,7 +8589,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "J2Sd5p6jep34gp4bliue8h8Cm9X4Ae/uq/Xkq9Ek4GjdzG9Lb2cGcXecVKOeF9+hsRpmXIuxGf2L/AR7bRxaig==",
+      "sha512": "GdQqCAXlle8hOMVpzjX0NIjBhnzo6EgnQMzynBxp12FwLZ6LxI0rRNVHn3+t8oz+jwhspRbGA+hcm1o2ufVGRw==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7746,7 +8601,7 @@
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "SSrzBkKt1kQ/vMPFXN+bqNL33XTqGgez7NbWLPJpUmFyIeDkFxIdspwWQTpPIit94Hu/WVJVJijhwrQcZ0HMew==",
+      "sha512": "Spr9q0Xfewo0o8IYhj7iFj5h4Hus89Q+b2D2lBeOexNW5oO1uGd5nRdFkYF/UoY+rItcQYI9Z1uKBJ3JXScdPQ==",
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7758,7 +8613,7 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "mMG/xAlSYKTRLzEEOq0mjrEyuRVXzcpHJKwv4fna8jpLvXy6cYgPeKdaAIXB2Xi/Uu6fMArblbUslMYr1vN0Ig==",
+      "sha512": "NR1yil5v0k0914mB/AfL0di4vOzQToleJ3lOBhKGnyN1bp3xSCO9bTCClZPZC3nUvO547qUu3vZS+6/jTjeDEQ==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7770,7 +8625,7 @@
       ]
     },
     "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "Asox+tomuFS3lEaHtotg83jX21pnmj1+1QpLVWLl3LaCdoo65ajYLzYAGpyh1dk9ZKUkJVSaaEyFSiBNiNnMYw==",
+      "sha512": "cggfOH/wogBnhUCKL4WjjL9+IZnB0XqpRXki8j8hIlke9wtl5fxrndhz6vlmYHrkySvdzSp54bMc+/hEZcQy3Q==",
       "type": "package",
       "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7782,7 +8637,7 @@
       ]
     },
     "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "Pz3Vs6+4Eyo122OB/Kv9BHI2bTxsG+wNiJJDvlpVNw113wZcUCDE0h/5ulVlP4wCgTKarxiOwlK5WHzkOJw0fg==",
+      "sha512": "O6GTe4OL3zM13R+wwK31KfiBNd34bJPeHLLydW/r8Aa3EyKSu6sKcm/4ib/OZ8N9m57J1Y+RLFoLJAx+nWlWEw==",
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7974,7 +8829,7 @@
       ]
     },
     "System.AppContext/4.3.0": {
-      "sha512": "IsYb3O6Bm29k5fvhSOEtUuDBYWG55Z5ImEML3Lc8o+sjuOEFWP7Uo4mKxSa0EuWcjrmL/weHlDx1L8PAiHNPMg==",
+      "sha512": "D8dU5rTk6TugtKaCKcjO+G5AknBcS2U+kdLL1Qo+J0EZVrIF1Ioo25jB3UynV6jMdix7rOAbOmGAxjFiJHoQnQ==",
       "type": "package",
       "path": "system.appcontext/4.3.0",
       "files": [
@@ -8050,7 +8905,7 @@
       ]
     },
     "System.Collections/4.3.0": {
-      "sha512": "rMBmSg5PhPh+6sz9PranMokT1xSr1uXH6KjQh1mnCVJn1OR0rGXjjEpuqHsAZNlaO78VLSENtx4bCiR3c9ZoZw==",
+      "sha512": "9B2PShoTW0SfANE5XoALTkS+4b2/VNnBUYBcyTdVm55ZNhysYYPcxCw+zwR7qqE/6d3MMkMDLCqRGgH4lMI1hQ==",
       "type": "package",
       "path": "system.collections/4.3.0",
       "files": [
@@ -8116,7 +8971,7 @@
       ]
     },
     "System.Collections.Concurrent/4.3.0": {
-      "sha512": "Yj8KWDGzcx5TmKuhovknrJvKq9USe8u1eWkyCc046NjM69TjZHRyI1uMF1OgW7XoqnrSoOR50GuDOoz9uN7rxA==",
+      "sha512": "AJxVPci9grjENDg7hUIRJ41p7tK4Fvn5k3Alcn6PVeM5BoSQrAuKJyFRNHegEs6xVzfYEDpz3p7BYPlE7cafcw==",
       "type": "package",
       "path": "system.collections.concurrent/4.3.0",
       "files": [
@@ -8203,7 +9058,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "oJi95BjiXiD2jtpX/89a6sHmo5GIID18PROhvx2ALrRm/koBanBm8nXx2Sdv7tMsKuvsKjegy8B/FB9njm0HaA==",
+      "sha512": "IKSOFVM4JT6DhCnKsMEcLk4WYOOi8e63tb2p1We7LY+uXWFUQ5Wc1LiGjrft1JJ+fuNg3ZDgkYs1uFhAZsKlVg==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -8240,7 +9095,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "hQF1X3wMKpcsLw2Boe+QSevpszXToVxA6bT3Utrm8f4z1GQuHB1HlbuFOx8YnuPsEOET/kB8t5vMMVwC7m9ccQ==",
+      "sha512": "2IFT8G+4Wm7Gk/r7JyugGRlY2/VOfFJtW+itf5nz5V2LrIRq/N/1AAl/hI/8esJAZzw/hdAA2EWEwKQXDaQ0Pw==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -8277,7 +9132,7 @@
       ]
     },
     "System.ComponentModel/4.3.0": {
-      "sha512": "Y3i4XWbiYurrcHPrUYxy2y6NhVwmdav0eNtOMKLJX2p/2erxTpxU10JDlwJQqUjHb3l74dbHplSFjZx80S6Uog==",
+      "sha512": "XPHQrQKN19VjwA0Xml0LQ15wnmdfh15DZcIYF5wBquTajUKjoucSbhduXyjewdkwVgc21vNIBxYzBT7Aku3LqA==",
       "type": "package",
       "path": "system.componentmodel/4.3.0",
       "files": [
@@ -8419,7 +9274,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "aNvIbU8emTbCfm7ER3UYcLr8vPli1aetD8kP8eU7HO/w2+e2ei43WhSl5FyJ/cD871Qnoi47J9uksHwzr6mAQQ==",
+      "sha512": "aPOBm4mfJgosLnNtrbuQLrOTk7vo8oy7sOT7loB4kJH0pa/ivb8dK7Mlh2pyfUBfetyUaLkWiWbY+1MEl63Gbw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -8456,7 +9311,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "VFHN84WLOwDyCw4z9ets/lKwowFKfkQgZCDjwdsLHwkG5YNk11qDx8V5SBskif5EvtdfSL59zho1Pvy+9M1f1A==",
+      "sha512": "Id2HYlKye0NVUSI141D3AbW/eIKYP7ZQYPAmJihtHVr8kjU+2cuoNDM5IRfENoLMXnjuumTQONXI4MSjL9f7RA==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -8507,7 +9362,7 @@
       ]
     },
     "System.Console/4.3.0": {
-      "sha512": "xMJLX8ranFoxQQoLerQnOxL3HR3qlWq908kNA0KrGAy/KOPaXB1WNCD0NDMfwm0woHzlHKVvq3/Bw0AosV4EtQ==",
+      "sha512": "W0n3DNeUTtfEVcewlXRTRxQt8WLqnfzWfw9JTJc3NiYOWSr6h5SkZ6IuZHi2rrLJVsLF1zgPdGOZmhbLpdU5yA==",
       "type": "package",
       "path": "system.console/4.3.0",
       "files": [
@@ -8609,7 +9464,7 @@
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
-      "sha512": "ftlJYNzzEfAqdZL9OZnkUf6GwRcnY64LKvfbpyDC3UrYa2FsKMXQi7NJZMypj8W6dcFu+Ww8de6EANoGnStDzA==",
+      "sha512": "FX8/v/IXH10FXO1Mfce3NP9N6EouqzQYkD4LmqN14A71MCclF1NSxrJuvkjssRcpH+h8ULarHKq2RTt4l5CF1Q==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
@@ -8667,7 +9522,7 @@
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
-      "sha512": "p2WzbSRsV4rGCxpomXFLdYjR5hgX2yGEoRHXQK9dY52wmG1fpGZEuNvKpi5j68yGCDjprKz8qYZvw4CuBXKj6g==",
+      "sha512": "ctTCFiMgItH57Uafa0fAIk3J4qzJxUsfsQqMGWnpt1urVDutYVlYgWld9LLwHmZtJGu3QJ7CFFW5cBj7RaZwuQ==",
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
@@ -8758,7 +9613,7 @@
       ]
     },
     "System.Diagnostics.FileVersionInfo/4.3.0": {
-      "sha512": "W2nycfuXTnI6uPbRM7/TbcKxa8rgzJ76wZGp/ydUbDXIB8G5cq4CyUQex4hWSp609KycwYUQZWeDdbzfCrQjuA==",
+      "sha512": "ruAecCW1dXlk2FEoaIXUCgrtMDrfsTgtuQ9dmYlQkP0OLMU3lSuUG83QBImoItTZw+FSh/7vIGZ3NO+p6ucg7w==",
       "type": "package",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
@@ -8798,7 +9653,7 @@
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
-      "sha512": "BPHo6s6TAPFEwEvVdIPM+DH3GJphG9AyAZS9bggyexsaakiTC2/KaBoCvLopC2yNNMyujc8Dmnal3J+R4PG6GQ==",
+      "sha512": "IGSsCV2MMdyuaWSAe8QhW1QMbgJylSTqqOgny5nntrwzJsh6RzfZFHhy29HWKY/+flfeMqUtGXpAtsBHEyM0OQ==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
@@ -8836,7 +9691,7 @@
       ]
     },
     "System.Diagnostics.Tools/4.3.0": {
-      "sha512": "M0dugFl8b7xooXjkM0OSVb3yX80yf6fVjGFuo+XxDtrLT6paA91TnqWtOcjRumNY13sRC/fJ+St5kDZB4nFkcg==",
+      "sha512": "XcqbGd+62zWdZu+wEIkNPTbK6wrXlw3uZ5D8D9qwNK17Ho/hBm3gP1HjU0miTWYJFHQ0RTNYyUEilvzQf0incA==",
       "type": "package",
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
@@ -8891,7 +9746,7 @@
       ]
     },
     "System.Diagnostics.Tracing/4.3.0": {
-      "sha512": "AIvl+qcicU/rh4qV80iALW+ke1kE94n+nYZtfBPFpYBUFf2pEJvozKdHxACmiVun+eDyo8+6kXVpon8hAt1IPQ==",
+      "sha512": "2yjHs/Z3dlQkHw5yJffFSwApuHy0JL9mJajj1VvYCXlMS5ZGsn0ECULNSaDJZBnukQ8gV1FiI9cdstzB7WEGcQ==",
       "type": "package",
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
@@ -8979,7 +9834,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "3nC6q/fdA9/tw/mzrGR+p7GCGI8R0wZwwT7vvQVawatRv/JxEmSCYPpqDGn4Q+TJTxPNxB26TAzfTTHAOB5gYw==",
+      "sha512": "MN9L2hMlvNt06QKWwJzBg5oejhZZKUeteEMp1QsLOUnbfWYG/8vqA1Tbme4vWNCANcfWaEOPCw26PLAgbTCKzg==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
@@ -9048,7 +9903,7 @@
       ]
     },
     "System.Globalization/4.3.0": {
-      "sha512": "MI3Nz6OmXnPyxG/hKfSedgKw44ejJYfqizgwS3OZL6ClMuKpkYmg9lnHiVgZ5hFXnaA+IGpO+RtXgGtSUkZCBA==",
+      "sha512": "GjEwMQK7lfO4jW6HKbYuOfBCezTrTiyuqW6KQW4DAVgnSEF5NrPX9cCb9YLcfS0ypIwwSHnnxGzo5c+sKJzTjQ==",
       "type": "package",
       "path": "system.globalization/4.3.0",
       "files": [
@@ -9114,7 +9969,7 @@
       ]
     },
     "System.Globalization.Calendars/4.3.0": {
-      "sha512": "SvOUU0YCaMefHxn09nMPEcAbppVSG4BUsVSGZyNporXmDkabOassfGR81bmpToam4P23lIfQZkUJ0xo9jH3tVA==",
+      "sha512": "RvBS0u6Bw29zxB8V30YcLUcIndXybnVy1BCqWWENGt6St3m7G+AtelMGMcXtlS7PZQNzeMNduNryUld9iLUp4w==",
       "type": "package",
       "path": "system.globalization.calendars/4.3.0",
       "files": [
@@ -9150,7 +10005,7 @@
       ]
     },
     "System.Globalization.Extensions/4.3.0": {
-      "sha512": "4jjz6VoUo4bERc7ZDyakkkz060eLlpe5T/mDKLp7SHHcIEPfGQQK/YRjCruaw3KeOCm6JrSEuAsgAa8aAX6x1Q==",
+      "sha512": "YEjJYQ7NJGR6WQ1Fzf3GduNhI5owjBy9t0PxRWomdTMortAseoDM3vAZqWZeKuoohf4xh3Bn4qPxa1mES4R62A==",
       "type": "package",
       "path": "system.globalization.extensions/4.3.0",
       "files": [
@@ -9204,7 +10059,7 @@
       ]
     },
     "System.Interactive.Async/3.1.1": {
-      "sha512": "D16ntBxxurB/W7b2ODKjOsrsXHQKWfSocikb4GEx5byBGwZ19rLi2g5SW+epXGGdJeaxdzgWJjdfnPqXw22JiA==",
+      "sha512": "V14/fX58/igWC7+FqMHEv8kR1f4BpTYN7w9S2zyha89+k59KhACqHA1WLL3K0eyFUorIb4Zui4kyj/PmRujWGA==",
       "type": "package",
       "path": "system.interactive.async/3.1.1",
       "files": [
@@ -9221,7 +10076,7 @@
       ]
     },
     "System.IO/4.3.0": {
-      "sha512": "8jC28sDQy4DeNAaTSHTdmmY0nTlnMsMlABJGwKhxqaHbdA7zSfVMKV6InkWQRfo9mRwyygiydRxWx1wlF4ICGg==",
+      "sha512": "EvYvltUv3ZMojaZsKZ6PrheVGuZr8Eoe3II4eHibEk03eWqaEfJyT9buwh4fvi2jukjfNHcOiwbunSK80Hi7AQ==",
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
@@ -9300,7 +10155,7 @@
       ]
     },
     "System.IO.Compression/4.3.0": {
-      "sha512": "BPZnARcw4r7mzMrP0NI43gsBx6Y4j/+YrCF9Q/hvaT1lT0C14kDWNxYxm5/6RsvnrOzSCtQgvptzYJ1pyEBXDQ==",
+      "sha512": "3MAnhPJvCRw3bqjQugYZVaqGk7EhIaGCgnDJ4b5uT8WBqVn19iOTHf8k83ilbPk3lbu3uyP8jIohecqOcEQWRg==",
       "type": "package",
       "path": "system.io.compression/4.3.0",
       "files": [
@@ -9369,7 +10224,7 @@
       ]
     },
     "System.IO.FileSystem/4.3.0": {
-      "sha512": "Cxtgui7hU1mr4u4rpeMDRo/budrHo2USMt5H9xUPrTCIbpCJvYtkGhMU1+KqhOLj/PI7/sOhhRU4FZicaJtQ1Q==",
+      "sha512": "51xjGcGtTXVWWa3dL9J0QyXfUxfnHzWbFcT2vc1p1VWwqb/S9m+J2v/gERyD1bNbgHn+IA4Za0mHbwLoEQSSyg==",
       "type": "package",
       "path": "system.io.filesystem/4.3.0",
       "files": [
@@ -9405,7 +10260,7 @@
       ]
     },
     "System.IO.FileSystem.Primitives/4.3.0": {
-      "sha512": "Flwtq1mMl7TWAsXDwEssQSUKg/JC4SH9hYc3S5R10GUgLUnJbDzf616aezWzckJ1+3KBJ4RgT3UEKLzeE3vrTA==",
+      "sha512": "BpRaBBUMyYBmVrSaT0cU4zhnBEA9Ma69pCW7hjp7wLHns3ZEm9RuBI58kcARncKDRu5auqkNe6T3lJwTvM9CBw==",
       "type": "package",
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
@@ -9442,7 +10297,7 @@
       ]
     },
     "System.Linq/4.3.0": {
-      "sha512": "TSJZeESdjGgcno1ipPNF+PVyBaReV/C3ebQj1p4seM8dOEhcQrSIdqwPww8BVtuVC8zu9/FvAOKO7dp/pmJrEg==",
+      "sha512": "QUgsmbVCxmgofe4zomBriB98PIZ6G2V3u6xUVUrtUBIjuRtPFQqU7WRYCgNsXuvuG7mTdDUlJNJp4o1yrBqYdw==",
       "type": "package",
       "path": "system.linq/4.3.0",
       "files": [
@@ -9512,7 +10367,7 @@
       ]
     },
     "System.Linq.Expressions/4.3.0": {
-      "sha512": "ez5Ng17RKsehCjgcK1yGEr0c6i/oGAExfNLwwgR374xRQ5zJkxGR82xTUBxo8w2LozrJ5AMYuuuGitJFbUPmFg==",
+      "sha512": "FB1BtKcsBhybWbjjmYilNakPmmnQ8XepiOIhEJYjj5M6mOqNSLj/BzpwwFnF9FFQPKbtbcDzq6e0QvhkRLmAvA==",
       "type": "package",
       "path": "system.linq.expressions/4.3.0",
       "files": [
@@ -9594,7 +10449,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "YmnNoDUjhOwLzP+vZNI++8s11B2nxq4QXl1qET5v6YLop/d/zcMXu1pDewGf0CLkT0KhSsr4ToOEa1fi7+WdxA==",
+      "sha512": "V7AUG/FMxQ/EF07Uow3P+GI/ljvCUbgFQODBA4o8cKNWm673eoPl4FrXLy7e5xOa6Ovdp0rVeOfyrCFaewb3nQ==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -9651,7 +10506,7 @@
       ]
     },
     "System.Net.Http/4.3.0": {
-      "sha512": "2Zluf9ZegpVkfDzLwsU9LhgqHsVwVVST/dNUYdZvPc8j0gkaxMRmS2FATot8fN6V2ztZxacg4/dKxM2I92qKJA==",
+      "sha512": "KKjTLHmamGKSTos7vTdDLcBL1cTbCdIZ5U/v6HaUU0ydDWZ3Fj0nbetXyLZC6gaZBCK/y/PayWmAX+ExTMifEg==",
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
@@ -9731,7 +10586,7 @@
       ]
     },
     "System.Net.NameResolution/4.3.0": {
-      "sha512": "GD6wBXggp8jRgb36fp8KJacRyYP96TFwYTQRR4VqTrnmN43S2rLUH2jfSBGTXBLC89vOa7wSLvGMjnR4eFJXFQ==",
+      "sha512": "blnYoCRDNI7knSjqYivJ0T15lyfWuPo3hR4yAsinZtWJXF0bxXFp1O5ilyF3izfkedi51QCfcA/lR75iAk+ypw==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
       "files": [
@@ -9771,7 +10626,7 @@
       ]
     },
     "System.Net.Primitives/4.3.0": {
-      "sha512": "wLxziFKRltlb4BDJkUD09iH78XCw6fLf6B1NNntXi8Tku8jR5Dk/BsRLNq2Z13Pqe62I5znFxtGDRo075GPSxg==",
+      "sha512": "riQlVyKmoyHaTck7DhFqvrqmSXlFUnZf/92khxTQKnMLWW0KNDPERmKW30EVho1hVMDXlCN1rcRvTBy2b0qGfg==",
       "type": "package",
       "path": "system.net.primitives/4.3.0",
       "files": [
@@ -9848,7 +10703,7 @@
       ]
     },
     "System.Net.Security/4.3.0": {
-      "sha512": "AiJ3FukdS8v2ReGJtnEV2KbiDKqRATVwL1p42Ytjik311hwBYMrdpZiMLGHPDMhq+JdsL3/IFA3//lYKWk0TBw==",
+      "sha512": "I423+8zHO5lbgD61sH5KQ79wElOfE/nfS1+0XU19om2Ch83Eap5YvpPbEL/alUgo8sa3ci1MIdHaHmxZBKQsiA==",
       "type": "package",
       "path": "system.net.security/4.3.0",
       "files": [
@@ -9888,7 +10743,7 @@
       ]
     },
     "System.Net.Sockets/4.3.0": {
-      "sha512": "EDoyom10EiQMhR8Cf4atpFStDRGwDSgWkheX7hu9psT6jX7gN6rXTgERy1OZiBVMtrEZIYQWZmNOV/FvbyXjMQ==",
+      "sha512": "9GXCeAUz1xOX2DF2zk6xqvVvx8p44pw+if7YiPPKFfjoXPjzqI5esGf2zPq6hUK6RoKB5bwG1iNtoL6Cl2mLdA==",
       "type": "package",
       "path": "system.net.sockets/4.3.0",
       "files": [
@@ -9965,7 +10820,7 @@
       ]
     },
     "System.ObjectModel/4.3.0": {
-      "sha512": "3mHxX1aImB1unV0+qQ5/YP68uE9VHp8T1hDmxLzgpWRzPhPUxk7nQaO2ZeXiNhmBu+yJK452tXsrWAnRdI+aYg==",
+      "sha512": "EaZcLpaz8dG37iPycVsFfxcONXRINn6ROTuqYVTbvQQOSN5KBR5bL/Q02yai1tOjlKaTMKoBXcRnsVttzrxjCw==",
       "type": "package",
       "path": "system.objectmodel/4.3.0",
       "files": [
@@ -10033,7 +10888,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "svSDqv1L6sahrw5iAbB9Mj2lQdLZEvVbOpy0ooaNeXgkxIrci1izy3pMhgHhDxycxrvErurm6VmpYrWAppR5nw==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -10047,7 +10902,7 @@
       ]
     },
     "System.Reflection/4.3.0": {
-      "sha512": "F9SkuAuCAB7j4fKsBV//tXI8Zmgiewf04OHxGNjXNR9UVgvXSc60otVGmPwc68UfH70jPIPHQt2yKsGPkSLiRA==",
+      "sha512": "t8lhqYU/zX91TjU9MS/ojKgQaxCN1RnWtZ5xgz4asVhwxfLC0ubuPZuVyL9Ur140+NQbe2YePKXjVKu/A5/kyA==",
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
@@ -10126,7 +10981,7 @@
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "cP54GEuiujYFbA5Mlc91TInpLsRMGs3Ln3DZi58cFQPU7Rzk2QwFKFZFqf22WZEvjvIIjkYIORrkmvTsuvYoyA==",
+      "sha512": "Gj/QPYnY+q2xTkcEyAs5t9HczZLZht9g6b6gOwTAOK1H0Q2fl2Wrs84qGI6BgDIW3MISEGgoTgITTO02SDroDw==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
@@ -10160,7 +11015,7 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
-      "sha512": "ZqwZe7f7iAJUBr7LehPrI8XlgCqV79OfX1lRPjrk/S7LmCS47T4QVC6lf5cR7n3Z4UtXzfon2aLbJUkowrVFJg==",
+      "sha512": "5T5rfkrxcmCmUxoNMopZ8gapC84KU1GyeBVa5KuYOjiMvt/HRhFcXXCwbOc+qSYFeiM8hCTRQ3iBYcVBpVjE1Q==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
@@ -10203,7 +11058,7 @@
       ]
     },
     "System.Reflection.Emit.Lightweight/4.3.0": {
-      "sha512": "7MS1M6D232AN7k5m9Z9ar55/QfpQWFlbnWgbe5QrSaYob1kSSjqWxMNNxB5JqohVIcFOAjhNtWLKLiCubHBkpA==",
+      "sha512": "vnfui0LzoAGd3v4CIgoeDJpIf7He+eaK7K8XOz8tpvBkdRulQAcxH8755Ecz91VDpyXXj9A78/2mjBeyXRzVQA==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
@@ -10246,7 +11101,7 @@
       ]
     },
     "System.Reflection.Extensions/4.3.0": {
-      "sha512": "0ZP/TMw7U1ks5jBPEApfEoTpHQ56FJyNfKltkb/tz8G6oNCJ7Vi6ubhsytWvdd4cXRjOPdzLpgaAP2Xs6d58dA==",
+      "sha512": "GXod3rYiMlvkqwlHesoSgAXvVF2NGgEOiiYYudUpq2ZZg4p3ykOgEKbrc3JKVuVb9bHqxdAp3STbPTLZEcIAhQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.3.0",
       "files": [
@@ -10322,7 +11177,7 @@
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
-      "sha512": "A3q4m/YF7zHK8qQuURlnXaq0k3aQqvwf6n9LyNjMMB5wRBj2EIgnXIXjeP0RmUpHCNkgsjpTclzqx4WWVRR8UA==",
+      "sha512": "ByB4lP4rBrEFMhca4CBFGyMjSqLONu/BeYau9rNez/Ghvp6vIo5srzfsFvu1a2Vfssc3gHM31Eq/pDexWo2MOQ==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
@@ -10377,7 +11232,7 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.3.0": {
-      "sha512": "bL42L8tj20ogOyJAfs5lFfyaCwgkWy1NPAxiojk0zVYiIT0YLa6NQzSjl4Lf5s0A41ma6U3VdpP64EExkjM6Hg==",
+      "sha512": "FJV2w85VwY3YtLTq9UbMJ2PIrvr+ef5q/qKCR6uZm02bVIDkaJvkG528aijegHWAQg435iuB25F6hRY6G73IEA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
@@ -10429,7 +11284,7 @@
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
-      "sha512": "CspSziKWraYN7mySwqHYq94puTWB6/6piwXi6d9NcweASgYvdr0CvDaB7BcDGQR4ysj8/AXgW9yY5ayr4sfJZQ==",
+      "sha512": "2kz1h8LlmeiEZOLARkuGE0VKy/z1d1lGKY4yOV71q2n1yuplJtjIjeR2l71eRGT7aBmjuxfoqxH6vKlN1IxCow==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
@@ -10484,7 +11339,7 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "I24uexPqv2INfqN6G12r/Xrg87NHT8+D5nspEHVpQuQhLtHNRXA19YDl0VRPo8gFNVJQXJKkY2vG9qSeFi+P7Q==",
+      "sha512": "LwU+30ojCICYg0cTOYQaL4WSCLEjRrTBc87WWHZo2XMTCAH5r5owxv0eHWaWJebYLNG1ZBv6UevM0zi70aGzbg==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
@@ -10595,7 +11450,7 @@
       ]
     },
     "System.Runtime.Extensions/4.3.0": {
-      "sha512": "Djr/AiPF3MgDVwpMzjrOnVth++xt6pyvjV7W70sOnhSt/OeF9egIgorgrnsy+Xjt+V3JOpZ0jR8ll2TbtpBbDw==",
+      "sha512": "T43f5iD5pmzNewpfUz9tOsvAUh/iQhjvFq7zD6b2ephdl4IWcUBAmyQLTkSzzXlD/aNn/Ye123poekSWjHxdmw==",
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
       "files": [
@@ -10674,7 +11529,7 @@
       ]
     },
     "System.Runtime.Handles/4.3.0": {
-      "sha512": "CFUXIuBAcvb1f+hpgfge+XeAsT/CoIuEu2kXVxjQsfC9+807MpNEbgW3yNk0G8Ur4LB2Ti1vZQIsiHYeXJsjPQ==",
+      "sha512": "TxcdMZT+yW2wmqg9Rxu74mGR32+H4+KFN2XUXy9GoWzJVtXUN8ImcH2m1KDOczWxRAwKwOExlu9WsP7caqBW4w==",
       "type": "package",
       "path": "system.runtime.handles/4.3.0",
       "files": [
@@ -10710,7 +11565,7 @@
       ]
     },
     "System.Runtime.InteropServices/4.3.0": {
-      "sha512": "8EoEEmvDVPxLrkQx3oWZULcaC2T2xTRH8bTQOfcZUOn7nYiGnc2bJX8mkI79hh43v6FJ8eXchHC+ygCw4KzMRg==",
+      "sha512": "VpofbSahf1se3eEb0YaLj7Ra/IShCeiLIPUxqClJZ4+EuTB94octQagidSZu0gsl6wNCqwWamvLsiIZbmk5g/A==",
       "type": "package",
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
@@ -10801,7 +11656,7 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "sha512": "EsglL7Xpohu8HOvAvCxcdOphXG4xWahmSGIZD2ONR9MkTVHTvwJbHvOpxSxqLNUDxH5cH6u3l1/ZSLkf6HnD4A==",
+      "sha512": "PxjO+gFIMHhaAbTVmlNxiVxaHxEm2CAZOaEtrB0Ky200WrjZakeRSNfp0Pp1dJOyEHw196/YubKmjA141bhTKw==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
@@ -10834,7 +11689,7 @@
       ]
     },
     "System.Runtime.Numerics/4.3.0": {
-      "sha512": "ylMAGxMXWK2x4bUbxuxPsXsrBR5ASNKtR3Hnu535djQatLkEfMVwBaAoh7ZxFps229c8FF6vp5LEpiRiob1PXQ==",
+      "sha512": "+ejVFVgeKdVbnZ/Q39M5eLTvTAIxUgq9e0hjCC95Po/iuzEaeKmoq/m+nfrE2bsOqpemrYB5s9jaYeVV8h5gjw==",
       "type": "package",
       "path": "system.runtime.numerics/4.3.0",
       "files": [
@@ -10889,7 +11744,7 @@
       ]
     },
     "System.Runtime.Serialization.Formatters/4.3.0": {
-      "sha512": "KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "sha512": "KVIvmrFbPTTuLH2GdaqZUXhd4oyBPbY8mS23aJulqP/514uxbQAlHzMd6ZWmXIN14JJbnfjhuvfbTRvbsSi5BA==",
       "type": "package",
       "path": "system.runtime.serialization.formatters/4.3.0",
       "files": [
@@ -10916,7 +11771,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
+      "sha512": "b7uAmpqm4TgzMWckt0w7KolNSJK27lDoHSyqKp3KcHgjFgJyiI43tf4qWHO5yMo+DIvWXCH8Lgu04VjV+FwEYg==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
@@ -10973,7 +11828,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "2F71ZAmF7exRC1D7k2O2BdG3a/n0naErkd/PxkFYxRCo5YW8nIcXInjMYpLxkLaPGre67CN2Ud/gjgHavPJwow==",
+      "sha512": "vn5RDPYPK5VOH2VVjGZ6/dNRoEL2X2CztsPHnbBvEjW8KbEGd1d6r0nVNSbGU8BCgiy6jZsh4JJk/SJzCDC33A==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -11082,7 +11937,7 @@
       ]
     },
     "System.Security.Claims/4.3.0": {
-      "sha512": "Y2yBHxuu649HQKLJ320cAUsNUqzRN5w61BoymRDAovlaMPVLNOm3pFhd4oU7yZL/GSjWP2AwvBat0Lsa2ZcXrA==",
+      "sha512": "gQI+RB53F2x4HDzKa3Ot1/bOqiWwv8nnjVL/fI+esywBCLct/GlNGnH3BLY+sJIAtAWenjdkn0KK8b6ldM0bgQ==",
       "type": "package",
       "path": "system.security.claims/4.3.0",
       "files": [
@@ -11119,7 +11974,7 @@
       ]
     },
     "System.Security.Cryptography.Algorithms/4.3.0": {
-      "sha512": "50Wt2ygyVb2LD83kgELFZ/qAWWN3NTu8IQ2nCsWeHJ5GE8yp3YXJ8sKWUYvoQ17P72QSHgqy/Ebq6h14AjW1Cw==",
+      "sha512": "nbVcgjjPg6yZzRPSVuMBPJIglR43fVRwKBu2EBgzFmG6QtqIM5Aav7UA1LdSzSD9r7HfSwnYiPGf1zc/+BWkbQ==",
       "type": "package",
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
@@ -11158,7 +12013,7 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.3.0": {
-      "sha512": "kyTpEl05Zy27lT5bGSbpnO3B/G9f7UVfk2z5eEyeK6qQ5ZVxx4i0/Qg2jmmbLwmysSN0Cgq7aFCJzyDN/EIozg==",
+      "sha512": "6hqGwNb3tY6wVe1DmJ/Fga1RwvK4Ak9vh95mkuHztzM5m4uMQZS/KoirjJG8WqGDDn4jPWkEq+1GM23a9VERBQ==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.3.0",
       "files": [
@@ -11184,7 +12039,7 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "GATBvClw6Ble0M9QFP3QHIHT5PwsDPBTyS4xuzRjPe4WNZZqqbcK6/cVw7Y984BM5SSzqhgqSDk2gcDt3z3YnQ==",
+      "sha512": "5GtMsabV3NHGOWRoZJTfPfkDTZT4Lpr15oegpWsDOFiFotJIQxBIGq91hQMN3TympnT9vKyYv3eYRBbZwnBrrA==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
@@ -11214,7 +12069,7 @@
       ]
     },
     "System.Security.Cryptography.Encoding/4.3.0": {
-      "sha512": "pJwxJU3rbMUT6Fz8OehlKT7qC3/OqHnBXs//Y4WLeC6g4gVjhQP2R3LLC57W9mAbcQsdx/97IN5Fg66/eK9j8w==",
+      "sha512": "NbT3SimVkryfJ/tHbhyq27qab6DzhWMO47JJ06AJ/YQNvkLL0NDONBvkOI2AauSWlUZKb2yN209f5eys1RwrKQ==",
       "type": "package",
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
@@ -11253,7 +12108,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "/ZjR+ZiUofYX2aJhFPauFuyC/n15q4WvJoanq4kjJEd92xdNbE2lNkPx+Z3NwTWVLUpJrRV06cO4IRV9ZY0snA==",
+      "sha512": "rbh3sm1Reg/kP+JJn+14opn5r5Eo8X7Bc5KPmf2BVxKDL54HIRMpulZRxnbK6FACuhNVsBCdi/q1LX/dHNsJHA==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -11267,7 +12122,7 @@
       ]
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
-      "sha512": "TXQxK0PEeTO9FU4U8kjQDoCxt40phjEZ+1fZtUyidQI0VhV4iQmdxxPrEMjrSReElityhIuPz5Rw0E1giTLjkQ==",
+      "sha512": "H6Dxhyb9+Ru8/7ONdEs6lRLnbeKkb9WE2qpD+r7RjiisXXp2jCqqNVrygK3erOmKCHzmDNaCHSNZvxogQ3D/Dw==",
       "type": "package",
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
@@ -11294,7 +12149,7 @@
       ]
     },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
-      "sha512": "KtGGhQ5NeWY6pCePaqzL8o094UBTQlWit0m35ZVkgZW7bqZ3/vaMhwNEtLhNsgwT9phU/0KRWL5TuELgUk4Pwg==",
+      "sha512": "qBZRP2XznA3yFtVjM0UNVTpWd3R4X5X+LlMfNg1IbuTsAEKFY/CZrIKeAzuDWw2B2gRKDj8sCrgRa0b6INxkPw==",
       "type": "package",
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
@@ -11367,7 +12222,7 @@
       ]
     },
     "System.Security.Principal/4.3.0": {
-      "sha512": "1/DVT/thHYdFHupk/Ojv79PDiY0iuprK36X1uMsKtfdXGMFHdAIpE68P6qjW4ITcgxtL9WC+LPe4KvFM/hLqtA==",
+      "sha512": "M03lOeOpu6qovoj+QfNkA16BbOiz7Shs1WMTZYCGyWvzA6gIWYkAIMy4CS7CrroOsyVJv1uV/5BiGleR2cAePw==",
       "type": "package",
       "path": "system.security.principal/4.3.0",
       "files": [
@@ -11462,7 +12317,7 @@
       ]
     },
     "System.Spatial/5.8.2": {
-      "sha512": "wrIAXyO4S/jRlvsIZ/d5eVl7kbG7qLyLjVIPVwDjGuSoa2faAtfyLinTPIKGNdftdSIJXH+A/MdOKLO8zZVkZA==",
+      "sha512": "1l0+hX2n67DF2iubFoKginWajsfUiEgeR/BrvVUbkLAehCk91vvO71G4yJ7q+GHCwzF/gOv+2cT1JeyH3jV7gA==",
       "type": "package",
       "path": "system.spatial/5.8.2",
       "files": [
@@ -11526,7 +12381,7 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "G4blkceEGpVcYcOumjXal/c4ktMuog7GUrXlm0Neh9bprf75nYhfslYMR+u2AHF2fQ11pjiQCkPfjxlJGRKNzA==",
+      "sha512": "L3LiYMwvPUcUF4gZNHwvAcirUBvR8Ql2FayxiMCjLPfEvJghkAchXajxlZcXAWd8hIfejP+CBk2Mg1mr6d/phg==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
@@ -11638,7 +12493,7 @@
       ]
     },
     "System.Text.Encoding.Extensions/4.3.0": {
-      "sha512": "OwsZUAEYoJAUL5w8Zy7ODLHOldrBU4kjTcUwUVqEDdaN2r+dZ667Q672+xtVRBjG9xejVVoHWdgkIw9M4O2xwQ==",
+      "sha512": "VlAgkfBGKGtBB/DYycNxfIyJmkfBTN6MMiHgRi6Lk0+/EFeQHJ082Z9ZiMFI55ExH+xJCe31r8vziqlwWSN/wQ==",
       "type": "package",
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
@@ -11721,7 +12576,7 @@
       ]
     },
     "System.Text.RegularExpressions/4.3.0": {
-      "sha512": "VVS1D+m3gG6qbukWNjOL50gsYHkkrY57+GVF6FlcIHGoKp1xqs/AUqlfxMyT9qGmU+wLSw5jf3EEYLnE/k210A==",
+      "sha512": "R6EG9ceBKUOadTWzYNAwIwO54p5nDLuv/5ODGBisDhp2sEYekXQOLF7N9Vq4GTuLtN2FE/45jT3fLl+4KnRxuQ==",
       "type": "package",
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
@@ -11803,7 +12658,7 @@
       ]
     },
     "System.Threading/4.3.0": {
-      "sha512": "ZWwhJZl+SGbnfH3Isgz2II/jSCzezonIXSa6f4VMgr4SkrggfK3Zx83NrKJb1ZRJb1P2SzzFDGgOmlYavNxH2Q==",
+      "sha512": "cGmCZiDAMWKrRSiRBdZsg62086jovaiFjy8Ji8rMHM+VK8Jhj65wy/lKrsBKmIFextD2+mjvd4vJXatzst562Q==",
       "type": "package",
       "path": "system.threading/4.3.0",
       "files": [
@@ -11872,7 +12727,7 @@
       ]
     },
     "System.Threading.Tasks/4.3.0": {
-      "sha512": "EYzkJv1JH+ua7AKVA6NvRYKbyst7Ckevd8DxdIFl/v54BF+yZ9MJKH/cdrfzeoMxLK6uY+TojYcVsiPhTrIVjw==",
+      "sha512": "VA0ORFzsAKltHeGXFJSWmliuVpQdx5ow6PyffMotXy4PYt5EiLwh9CYxE7rsitBvMrx4VkLpfEgrGpnnvXraIg==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
@@ -11959,7 +12814,7 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "gOMICDOZrRV5F2hWqt6cEaIgFItX6+4O3NZivZrTf2xbiaffYpYHR3bgx+MiG7N/duQnsvFIznmACNyNecVJzg==",
+      "sha512": "1sq1A/yu8HpDaWBQO6y5/Rs47nAYMCb3SKEu3OssgQ8EjDQYsiFGTIQxsJmXUZsE9n6gMf/tUUXgtCmeDZjSFw==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
@@ -12014,7 +12869,7 @@
       ]
     },
     "System.Threading.Thread/4.3.0": {
-      "sha512": "mFWaFYsHH884GHrHApwe11A4InoduDbRL+cZ9I7igC3jBeediPgJpC307Pv11QipyNxi75C10TrZCVaBOjoGIg==",
+      "sha512": "9/aOn3AXjAXHahpkN3eUHM5zW9HEGxEbXNEIY+oVrOtnorrSo2nrb7pTwHIxou8WIy6YCMoO/qChD4IwBhDxEw==",
       "type": "package",
       "path": "system.threading.thread/4.3.0",
       "files": [
@@ -12052,7 +12907,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "cxGubOMXot5cvCfP4blkiPYfQJXtbuoBHdn3juy/3BPEVQdc6+dD8dXuvhZodHehuNAlg5Rngsdyw0ToS/mz4w==",
+      "sha512": "F2V8zxxR4VqiOYj5lLqP5mxhOlzr2Bp7V8lMbyn4lMzrZAmD85eAJ8iO80xdZpvl9y9lzMJxV3IoZNlHXiID9g==",
       "type": "package",
       "path": "system.threading.threadpool/4.3.0",
       "files": [
@@ -12090,7 +12945,7 @@
       ]
     },
     "System.Threading.Timer/4.3.0": {
-      "sha512": "QA+vgMmWpTu7lfu5KRV6HHnP3GHUZdPNRZMOUqkV5RzerNAaZoEJgUCBB2h3PEULVUHMi7j8m7aN8b9op9hzvQ==",
+      "sha512": "e110mxoRMFRlHfeSgon9YOLtauiHX13JQvi+tRDN5iOCwcytRLlhuMInlEbmmEliSwFB9c07jeugRpkOl6+SHg==",
       "type": "package",
       "path": "system.threading.timer/4.3.0",
       "files": [
@@ -12186,7 +13041,7 @@
       ]
     },
     "System.Xml.ReaderWriter/4.3.0": {
-      "sha512": "LSdS+foaE1+4mZhiQKQGZba1ard5CE6DCdHGY3vtu0UGmISMnFT7zf4/t+CrPQ1txy/70Fl3IWzhmFT+De05Eg==",
+      "sha512": "W1criUV7sjATJWY5gWFzm4MTeZr4cFYE2SjLHboVpUBOV+GsW/Zr6+OOKdi5TYK4VtfPdCxRn+gJ8ppfcHGF/g==",
       "type": "package",
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
@@ -12256,7 +13111,7 @@
       ]
     },
     "System.Xml.XDocument/4.3.0": {
-      "sha512": "c4T7RI4Sv7DMcVivOtBE/fcorMbn+8+UqQPUpiDWB0JEi+YTKCSXWfW/PuRs7aFBVdDORDfJDvOuf82ZNapxvg==",
+      "sha512": "rhFxkAnJQXnDMIEoyhXubepK2GXSkekRZ9+oLl6PnlSal+TCe3xSkjkRdliedjkrPeTnQtSB9QHJwF1QuHNIcQ==",
       "type": "package",
       "path": "system.xml.xdocument/4.3.0",
       "files": [
@@ -12324,7 +13179,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
-      "sha512": "lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "sha512": "FgSLA15wcwjk0QA/7ctx2FeEiu8a3pfFckAVfENoSSqzcOQsQ1wBWwHMPuDMkWjH1Q/xB25I9rEx3xpEsunxjw==",
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
@@ -12361,7 +13216,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.0.11": {
-      "sha512": "FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
+      "sha512": "sBvLN4psNspnucd8J2qoqbbZkLPrB1Kuh38IRk9fKuFT48JL7lGSkz6Ajhr3Axp81aRYwAa6Yb0Nqc+ktFtjcA==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.11",
       "files": [
@@ -12430,7 +13285,7 @@
       ]
     },
     "System.Xml.XPath/4.3.0": {
-      "sha512": "/dQC/bDAz6REzQ+y1BgTRzkS7cDnRXn2WNSRbNg67Z60jG1+W9vmlra3wMpSCPUW1OsehMRCC7f0ogT7VxFHLA==",
+      "sha512": "xIkp6XZGD8wZA6N79z22v2c8FBeT47MunOWhRtNVnRsVyABg/WprjIHmUVaIqg/L3I5JEsIZnp82KrjEaP42EA==",
       "type": "package",
       "path": "system.xml.xpath/4.3.0",
       "files": [
@@ -12467,7 +13322,7 @@
       ]
     },
     "System.Xml.XPath.XDocument/4.3.0": {
-      "sha512": "xxZ9YC3nmZkIFDGQX/b4dzyiJXmZ544QFa4BuCI8sFY6Ce7PyWbV/7WvqB53rraK9Gv25wOTl2XBThNMfClHPA==",
+      "sha512": "bgaMb1jmZYBrZ7u33Ea8tnsC/guLiwTrKAeo/riSrMt1qva3l5hZOdBcQQ3sIyqj3Z0+ryEqcau0H3AorxVYTA==",
       "type": "package",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
@@ -12531,33 +13386,29 @@
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0-preview2-25407-01"
     ]
   },
   "packageFolders": {
-    "/home/tony/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/stheffany/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/docs/dev/dotnet-playground/Academic/Academic.csproj",
+      "projectUniqueName": "/home/stheffany/GitHub/academic/Academic.csproj",
       "projectName": "Academic",
-      "projectPath": "/mnt/docs/dev/dotnet-playground/Academic/Academic.csproj",
-      "packagesPath": "/home/tony/.nuget/packages/",
-      "outputPath": "/mnt/docs/dev/dotnet-playground/Academic/obj/",
+      "projectPath": "/home/stheffany/GitHub/academic/Academic.csproj",
+      "packagesPath": "/home/stheffany/.nuget/packages/",
+      "outputPath": "/home/stheffany/GitHub/academic/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/home/tony/.nuget/NuGet/NuGet.Config"
+        "/home/stheffany/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "/home/tony/.dotnet/NuGetFallbackFolder": {},
+        "/home/stheffany/.dotnet/NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12576,7 +13427,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0.0-preview2-25407-01",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {

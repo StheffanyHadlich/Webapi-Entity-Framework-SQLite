@@ -9,6 +9,14 @@ namespace Academic.Data
     public class AcademicContext : DbContext
     {
         public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<Classroom> Classroom { get; set; }
+        public DbSet<Course> Course { get; set; }
+        public DbSet<Enrollment> Enrollment { get; set; }
+        public DbSet<Professor> Professor { get; set; }
+        public DbSet<State> State {get; set;}
+        public DbSet<Student> Student { get; set; }
+        public DbSet<Subjects> Subjects {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,8 +34,10 @@ namespace Academic.Data
             var dataContext = serviceScope.ServiceProvider.GetRequiredService<AcademicContext>();
             dataContext.Database.EnsureCreated();
 
-            dataContext.Alunos.Add(new Aluno{Nome = "João da Silva"});
+            dataContext.Alunos.Add(new Aluno{Name = "João da Silva"});
             dataContext.SaveChanges();
         }
+
+
     }
 }

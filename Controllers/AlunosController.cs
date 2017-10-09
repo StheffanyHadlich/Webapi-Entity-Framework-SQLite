@@ -31,23 +31,48 @@ namespace Academic.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(Guid id)
+        public async Task<IActionResult> Get(Guid id) //read
         {
             return Ok(await DbContext.Alunos.SingleOrDefaultAsync(m => m.Id == id));
+
         }
 
-        // POST api/values
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody]string value)
+         [HttpPost()]
+        public async Task<IActionResult> Post([FromBody]dynamic value)
         {
-            throw new NotImplementedException();
+            if (value != null)
+            {
+                DbContext.Alunos.AddAsync(value);
+                await DbContext.SaveChangesAsync();
+                return new NoContentResult();
+            }
+            else
+            {
+                return BadRequest();
+            }
+
         }
 
-        // PUT api/values/5
+
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody]string value)
+        public async Task<IActionResult> Put(Guid id, [FromBody] dynamic value)
         {
-            throw new NotImplementedException();
+            if (value == null || value.Id != id)
+            {
+                return BadRequest();
+            }
+
+            var updateValue = await DbContext.Alunos.FirstOrDefaultAsync(t => t.Id == id);
+            
+            if (updateValue == null)
+            {
+                return NotFound();
+            }
+
+            updateValue.Name = value.Name; //update name
+            DbContext.Alunos.Update(updateValue);
+            await DbContext.SaveChangesAsync();
+            return new NoContentResult();
         }
 
         // DELETE api/values/5

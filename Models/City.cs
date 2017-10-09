@@ -2,9 +2,10 @@ using System;
 
 namespace Academic.Models
 {
-    public class Aluno
+    public class City
     {
         public Guid Id { get; set; } = Guid.NewGuid();
-        public string Name { get; set; } = "";
+        public string name { get; set; } = "";
+        public State estate { get; set; }
     }
 }
