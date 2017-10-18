@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Academic.Data;
+using Academic.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -38,11 +39,11 @@ namespace Academic.Controllers
         }
 
         [HttpPost()]
-        public async Task<IActionResult> Post([FromBody]dynamic value) // CREATE
+        public async Task<IActionResult> Post([FromBody] Classroom value) // CREATE
         {
             if (value != null)
             {
-                DbContext.Classroom.AddAsync(value);
+                await DbContext.Classroom.AddAsync(value);
                 await DbContext.SaveChangesAsync();
                 return new NoContentResult();
             }
@@ -55,7 +56,7 @@ namespace Academic.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(Guid id, [FromBody] dynamic value) // UPDATE
+        public async Task<IActionResult> Put(Guid id, [FromBody] Classroom value) // UPDATE
         {
             if (value == null || value.Id != id)
             {
