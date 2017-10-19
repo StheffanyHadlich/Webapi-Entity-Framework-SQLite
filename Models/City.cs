@@ -6,6 +6,6 @@ namespace Academic.Models
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string name { get; set; } = "";
-        public State estate { get; set; }
+        public State state { get; set; }
     }
 }

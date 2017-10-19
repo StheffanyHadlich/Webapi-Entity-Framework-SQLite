@@ -71,7 +71,7 @@ namespace Academic.Controllers
             }
 
             updateValue.name = value.name; //update name
-            updateValue.estate = value.estate;
+            updateValue.state = value.state;
 
             DbContext.City.Update(updateValue);
             await DbContext.SaveChangesAsync();

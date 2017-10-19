@@ -27,9 +27,13 @@ namespace Academic.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await DbContext.Classroom.ToListAsync());
+            return Ok(await DbContext.Classroom
+            .Include(m => m.subject)
+            .ThenInclude(m => m.course)
+            .Include(m => m.professor)
+            .ToListAsync());
         }
-
+ 
         // GET api/values/5
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(Guid id) //read
@@ -74,6 +78,7 @@ namespace Academic.Controllers
             updateValue.classroom = value.classroom;
             updateValue.vacancies = value.vacancies;
             updateValue.subject = value.subject;
+            updateValue.professor = value.professor;
 
             DbContext.Classroom.Update(updateValue);
             await DbContext.SaveChangesAsync();
